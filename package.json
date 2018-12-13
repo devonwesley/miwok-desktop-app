@@ -2,8 +2,10 @@
   "name": "miwok-desktop-app",
   "version": "0.1.0",
   "description": "A wallet, block-explorer and Dapp browser.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "build:dev": "webpack --mode development",
+    "build:production": "webpack --mode production",
     "test": "mocha"
   },
   "repository": {
@@ -20,6 +22,8 @@
   "devDependencies": {
     "chai": "~4.2.0",
     "jest": "~23.6.0",
-    "mocha": "~5.2.0"
+    "mocha": "~5.2.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
   }
 }
