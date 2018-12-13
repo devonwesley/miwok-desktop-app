@@ -1,0 +1,25 @@
+{
+  "name": "miwok-desktop-app",
+  "version": "0.1.0",
+  "description": "A wallet, block-explorer and Dapp browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devonwesley/miwok-desktop-app.git"
+  },
+  "keywords": [],
+  "author": "Devon T. Wesley <dwesley89@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devonwesley/miwok-desktop-app/issues"
+  },
+  "homepage": "https://github.com/devonwesley/miwok-desktop-app#readme",
+  "devDependencies": {
+    "chai": "~4.2.0",
+    "jest": "~23.6.0",
+    "mocha": "~5.2.0"
+  }
+}
