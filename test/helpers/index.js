@@ -2,15 +2,14 @@ import chai from 'chai';
 import jest from 'jest';
 
 function describeTest(message, callback) {
-  /** eslint no-undef: "error" */
-  describe(message, function () { /** eslint-disable-line no-undef prefer-arrow-callback */
+  describe(message, function () {
     return callback();
   });
 }
 
 function itShould(message, callback) {
-  it(message, function () { /** eslint-disable-line no-undef prefer-arrow-callback */
-    return callback(); 
+  it(message, function () {
+    return callback();
   });
 }
 
