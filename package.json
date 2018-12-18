@@ -6,6 +6,7 @@
   "scripts": {
     "build:dev": "webpack --mode development",
     "build:production": "webpack --mode production",
+    "lint": "./node_modules/.bin/eslint  --ignore-pattern '/dist/' .",
     "test": "mocha"
   },
   "repository": {
@@ -25,6 +26,11 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "chai": "~4.2.0",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
     "jest": "~23.6.0",
     "mocha": "~5.2.0",
     "webpack": "^4.27.1",

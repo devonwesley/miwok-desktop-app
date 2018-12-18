@@ -2,14 +2,14 @@ import chai from 'chai';
 import jest from 'jest';
 
 function describeTest(message, callback) {
-  describe(message, function() {
-    callback();
+  describe(message, function () {
+    return callback();
   });
 }
 
 function itShould(message, callback) {
-  it(message, function() {
-    callback();
+  it(message, function () {
+    return callback();
   });
 }
 
