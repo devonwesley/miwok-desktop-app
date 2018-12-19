@@ -1,0 +1,13 @@
+version: '3'
+services:
+  production_wallet:
+    image: devonwesley/miwok-desktop-production
+    build:
+      context: .
+      dockerfile: ./Docker/Dockerfile.production
+  development_wallet:
+    image: devonwesley/miwok-desktop-development
+    build: 
+      context: .
+      dockerfile:  ./Docker/Dockerfile.development
+
