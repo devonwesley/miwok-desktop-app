@@ -6,6 +6,11 @@
   "scripts": {
     "build:dev": "webpack --mode development",
     "build:production": "webpack --mode production",
+    "docker:build": "docker-compose build",
+    "docker:build:development": "docker-compose build development_wallet",
+    "docker:build:production": "docker-compose build production_wallet",
+    "docker:ls": "docker image ls",
+    "docker:up": "docker-compose up",
     "lint": "./node_modules/.bin/eslint  --ignore-pattern '/dist/' .",
     "test": "mocha"
   },
