@@ -1,6 +1,20 @@
 # miwok-wallet
 A wallet, block-explorer and Dapp browser.
 
+### Prerequisites
+
+- NodeJS
+- Docker
+- Yarn
+
+### Installing Miwok
+
+`yarn build`
+
+### Starting Miwok
+
+`yarn start`
+
 ### Testing 
 
 Folders: 
