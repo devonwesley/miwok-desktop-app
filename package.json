@@ -10,8 +10,8 @@
     "docker:ls": "docker image ls",
     "docker:up": "docker-compose up",
     "lint": "./node_modules/.bin/eslint  --ignore-pattern '/build/' .",
-    "start": "yarn webpack:build:production && electron src/",
-    "start:dev": "yarn webpack:build:development && electron src/",
+    "start": "yarn webpack:build:production && electron src/index.js",
+    "start:dev": "yarn webpack:build:development && electron src/index.js",
     "test": "mocha --compilers js:@babel/register",
     "webpack:build:production": "webpack --mode production",
     "webpack:build:development": "webpack --mode development"

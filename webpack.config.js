@@ -47,4 +47,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.json', '.jsx'],
   },
+  node: {
+    __dirname: false,
+  },
 };
