@@ -1,21 +1,38 @@
-# miwok-wallet
+# Miwok-Desktop
 A wallet, block-explorer and Dapp browser.
 
-### Prerequisites
+![circleci](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg) 
+![docker_automated](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
+![docker_build_status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)
+![check_context](https://img.shields.io/github/status/contexts/pulls/badges/shields/1110.svg)
+
+## Prerequisites
 
 - NodeJS
 - Docker
 - Yarn
 
-### Installing Miwok
+## Installing Miwok
 
 `yarn build`
 
-### Starting Miwok
+## Starting Miwok
 
 `yarn start`
 
-### Testing 
+## Usage
+
+## Support
+
+## Roadmap
+
+## Contributing
+
+## Authors and acknowledgment
+
+- [Devon Wesley](https://github.com/devonwesley)
+
+## Testing 
 
 Folders: 
 
@@ -31,4 +48,6 @@ Commands:
 yarn run test
 ```
 
-### Docker
+## License
+
+[GNU Lesser General Public License v3.0](./LICENSE)
