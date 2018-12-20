@@ -1,4 +1,4 @@
 .circleci
 node_modules/
-dist/
+build/
 yarn-error.log
