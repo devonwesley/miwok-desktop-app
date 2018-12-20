@@ -6,8 +6,9 @@
   "scripts": {
     "docker:build": "docker-compose build",
     "docker:build:development": "docker-compose build development_wallet",
-    "docker:build:production": "docker-compose build production_wallet",
     "docker:ls": "docker image ls",
+    "docker:build:production": "docker-compose build production_wallet",
+    "docker:push": "docker push devonwesley/miwok-desktop-development:latest",
     "docker:up": "docker-compose up",
     "lint": "./node_modules/.bin/eslint  --ignore-pattern '/build/' .",
     "release": "standard-version",
