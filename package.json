@@ -12,7 +12,7 @@
     "lint": "./node_modules/.bin/eslint  --ignore-pattern '/build/' .",
     "start": "yarn webpack:build:production && electron src/",
     "start:dev": "yarn webpack:build:development && electron src/",
-    "test": "mocha",
+    "test": "mocha --compilers js:@babel/register",
     "webpack:build:production": "webpack --mode production",
     "webpack:build:development": "webpack --mode development"
   },
@@ -29,8 +29,10 @@
   "homepage": "https://github.com/devonwesley/miwok-desktop-app#readme",
   "devDependencies": {
     "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
     "chai": "~4.2.0",

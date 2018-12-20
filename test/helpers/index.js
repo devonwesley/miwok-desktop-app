@@ -8,7 +8,7 @@ function describeTest(message, callback) {
 }
 
 function itShould(message, callback) {
-  it(message, function () {
+  return it(message, function () {
     return callback();
   });
 }
