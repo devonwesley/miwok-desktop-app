@@ -1,6 +1,6 @@
 {
   "name": "miwok-desktop-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A wallet, block-explorer and Dapp browser.",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "docker:ls": "docker image ls",
     "docker:up": "docker-compose up",
     "lint": "./node_modules/.bin/eslint  --ignore-pattern '/build/' .",
+    "release": "standard-version",
     "start": "yarn webpack:build:production && electron src/index.js",
     "start:dev": "yarn webpack:build:development && electron src/index.js",
     "test": "mocha --compilers js:@babel/register",
@@ -49,6 +50,7 @@
     "file-loader": "^2.0.0",
     "jest": "~23.6.0",
     "mocha": "~5.2.0",
+    "standard-version": "^4.4.0",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"
   },
